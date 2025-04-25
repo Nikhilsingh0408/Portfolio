@@ -269,7 +269,7 @@ export const SkillsInfo = [
       image: portfolioLogo,
       tags: ["React JS", "TailwindCSS", "HTML", "CSS", "JavaScript", "Framer Motion",],
       github: "https://github.com/Nikhilsingh0408/Portfolio",
-      webapp: "",
+      webapp: "https://portfolio-psi-ochre-72.vercel.app/",
     },
     {
       id: 2,
