@@ -45,6 +45,7 @@ import usvLogo from './assets/education_logo/USV_logo.jpeg';
 // Project Section Logo's
 import jobPortalLogo from './assets/work_logo/job_portal.png';
 import chatApplicationLogo from './assets/work_logo/chat_application.png';
+import portfolioLogo from './assets/work_logo/portfolio.png';
 import geminiLogo from './assets/work_logo/gemini.png';
 import newsAppLogo from './assets/work_logo/news_app.png';
 
@@ -258,6 +259,16 @@ export const SkillsInfo = [
       image: chatApplicationLogo,
       tags: ["React JS", "Redux", "TailwindCSS", "JavaScript", "Node.js", "Express", "Socket.io", "JWT", "MongoDB"],
       github: "https://github.com/Nikhilsingh0408/Chat-Application",
+      webapp: "",
+    },
+    {
+      id: 2,
+      title: "Portfolio",
+      description:
+        "Designed and developed a personal portfolio website to showcase my skills, projects, and experiences. The site features a clean, modern design with smooth animations and transitions, built using React.js and Tailwind CSS. It includes sections for my resume, projects, skills, and contact information, all optimized for mobile and desktop views. The portfolio is hosted on Vercel, ensuring fast load times and reliable performance. This project reflects my commitment to web development excellence and serves as a platform for potential employers to view my work.",
+      image: portfolioLogo,
+      tags: ["React JS", "TailwindCSS", "HTML", "CSS", "JavaScript", "Framer Motion",],
+      github: "https://github.com/Nikhilsingh0408/Portfolio",
       webapp: "",
     },
     {
