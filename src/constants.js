@@ -43,6 +43,7 @@ import usvLogo from './assets/education_logo/USV_logo.jpeg';
 
 
 // Project Section Logo's
+import codeSymbolLogo from './assets/work_logo/codeSync.png';
 import jobPortalLogo from './assets/work_logo/job_portal.png';
 import chatApplicationLogo from './assets/work_logo/chat_application.png';
 import portfolioLogo from './assets/work_logo/portfolio.png';
@@ -243,6 +244,16 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
+      title: "CodeSync",
+      description:
+        "This project is a real-time collaborative code editor with built-in code execution, allowing multiple users to code together and instantly run programs in the browser. Built with React.js, Node.js, Express.js, and Socket.io, the platform supports several programming languages via the Piston API, enabling custom input and output directly within the editor. Users can create or join coding rooms, where changes are synced in real time, making it ideal for technical interviews, pair programming, and remote collaboration. The tool offers a seamless coding experience without the need for local setups, perfect for teams, students, and developers working together in an interactive environment.",
+      image: codeSymbolLogo,
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "CodeMirror", "Node.js", "Express", "Socket.io", "Piston API"],
+      github: "https://github.com/Nikhilsingh0408/Real_Time_Code_Editor",
+      webapp: "https://real-time-code-editor-2-1h4l.onrender.com/",
+    },
+    {
+      id: 1,
       title: "Job Portal",
       description:
         "Built a dynamic Job Portal application using the MERN stack. The platform connects job seekers and recruiters, enabling seamless job applications and hiring.Job seekers can register, build profiles, upload resumes, and apply to filtered job listings. Recruiters can post jobs, view applications, and manage candidate. Integrated advanced search filters by location, role, experience, and technology stack. Designed with a clean, responsive UI using Tailwind CSS to ensure a smooth experience across all devices. Implemented secure authentication and profile management.",
@@ -252,7 +263,7 @@ export const SkillsInfo = [
       webapp: "",
     },
     {
-      id: 1,
+      id: 2,
       title: "Chat Application",
       description:
         "I developed a real-time Chat Application using the MERN stack, integrating Socket.io to enable instant, bi-directional communication between users. The platform allows users to connect seamlessly and share their thoughts in real-time. Key features include online/offline status indicators and message delivery confirmations to enhance user experience. The frontend is built with React.js and styled using Tailwind CSS for a modern, responsive UI. The application is secured with JWT-based authentication, ensuring safe and persistent user sessions. All chat data and user information are efficiently stored using MongoDB, supporting a smooth and scalable messaging system.",
@@ -262,7 +273,7 @@ export const SkillsInfo = [
       webapp: "",
     },
     {
-      id: 2,
+      id: 3,
       title: "Portfolio",
       description:
         "Designed and developed a personal portfolio website to showcase my skills, projects, and experiences. The site features a clean, modern design with smooth animations and transitions, built using React.js and Tailwind CSS. It includes sections for my resume, projects, skills, and contact information, all optimized for mobile and desktop views. The portfolio is hosted on Vercel, ensuring fast load times and reliable performance. This project reflects my commitment to web development excellence and serves as a platform for potential employers to view my work.",
@@ -272,7 +283,7 @@ export const SkillsInfo = [
       webapp: "https://portfolio-psi-ochre-72.vercel.app/",
     },
     {
-      id: 2,
+      id: 4,
       title: "Gemini Clone",
       description:
         "Created a Gemini Clone using the Gemini API to simulate real-time AI chat interactions. Users can ask questions and receive intelligent, context-aware responses across various topics. Built with React.js for the frontend, ensuring a clean and responsive user interface. Integrated smooth UI transitions and a chat-like experience to mirror the feel of modern AI assistants.",
@@ -282,7 +293,7 @@ export const SkillsInfo = [
       webapp: "https://gemini-clone-amber-xi.vercel.app/",
     },
     {
-      id: 3,
+      id: 5,
       title: "News App",
       description:
         "I developed a responsive News App that delivers real-time headlines and updates across various categories such as technology, sports, business, and entertainment. The app integrates a third-party News API to fetch and display the latest articles dynamically. Built using React.js and styled with Tailwind CSS, it offers a smooth and modern user experience on all devices. Key features include category-based filtering and concise article previews to keep users informed and engaged.",
